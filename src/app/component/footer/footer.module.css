@@ -1,0 +1,12 @@
+.inpute{
+    border: 0px none;
+    background-color: rgba(245, 222, 179, 0);
+    height: 40px;
+    width: 100%;
+    color: white;
+}
+.inpute:focus{
+    border: 0px solid #55555500;
+    outline: none !important;
+
+}

@@ -7,7 +7,7 @@ import Style from '../product/product.module.css'
 export default function Product() {
     return(
         <>
-        <Box py={10}>
+        <Box py={{md:10, xs:4}}>
             <Container>
                 <Box textAlign={"center"}>
                     <Typography fontSize={{md:50, xs:20}}
@@ -15,7 +15,7 @@ export default function Product() {
                 color={"#1E1E1E"}>
                     Available Coffee
                     </Typography>
-                    <Typography>
+                    <Typography  color={"#1E1E1E"}>
                     Shop your coffee now
                     </Typography>
                 </Box>
